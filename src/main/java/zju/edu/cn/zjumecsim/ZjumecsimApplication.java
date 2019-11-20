@@ -1,0 +1,13 @@
+package zju.edu.cn.zjumecsim;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ZjumecsimApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ZjumecsimApplication.class, args);
+	}
+
+}
