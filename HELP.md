@@ -8,7 +8,10 @@
 全局信息注册模块，感知全局系统状态
 
 ### application
-对应用进行抽象与管理模块
+对应用进行抽象与管理模块.
+应用抽象为一个连续序列：s1 -> s2 -> s3.
+s1抽象为执行服务的点：ApplicationServiceNode
+s1 -> s2 抽象为服务边：ApplicationServiceEdge
 
 ### entity
 系统中出现的实体的抽象
@@ -41,3 +44,6 @@ mobile device生成请求模块
 
 ### util
 工具类所在模块
+
+### allocation
+资源分配模块，分配系统资源，包括CPU、带宽，RAM，DISK。
