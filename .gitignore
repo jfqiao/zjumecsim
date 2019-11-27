@@ -76,3 +76,4 @@ buildNumber.properties
 .settings
 .metadata
 
+.DS_Store
